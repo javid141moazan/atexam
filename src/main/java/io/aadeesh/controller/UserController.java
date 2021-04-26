@@ -72,26 +72,10 @@ public class UserController
 		
 	User auser=urepo.findByUsernamePassword(username, password);
 	
-	/*if(auser!=null)
-	{
-		String uname=auser.getUser_email();
-		String upass=auser.getUser_pass();
-	
-		if(username.equalsIgnoreCase(uname) && password.equalsIgnoreCase(upass))  
-		{
-			session.setAttribute("username",username);
-			return "dummy";
-		}
-		else 
-		{
-			modelMap.put("error", "Invalid Account");
-			return "login";
-		}
-	} */
+
 	if(auser!=null)
 	{
-		//here condition check not required because you always get valid User object with correct login details. So else block will never execute. hence 
-		//modified as below
+		
 			session.setAttribute("username",username);
 			return "dummy";
 		
