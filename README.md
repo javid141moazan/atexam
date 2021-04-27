@@ -1,3 +1,13 @@
+
+here is the badge for travis
+https://travis-ci.org/javid141moazan/atexam.svg?branch=main
+
+
+here is the badge for sonar cloud
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=atexam&metric=alert_status)](https://sonarcloud.io/dashboard?id=atexam)
+
+
+
 # atexam
 
 User-Registration-Login-SpringBoot
