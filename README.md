@@ -1,6 +1,10 @@
 
 here is the badge for travis
+
 https://travis-ci.org/javid141moazan/atexam.svg?branch=main
+
+
+[![Build Status](https://travis-ci.org/javid141moazan/atexam.svg?branch=main)](https://travis-ci.org/javid141moazan/atexam)
 
 
 here is the badge for sonar cloud
