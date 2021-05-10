@@ -15,11 +15,9 @@ here is the badge for sonar cloud
 
 # atexam
 
-User-Registration-Login-SpringBoot
+library
+to access student account locally
 
-
-Steps for running different modules: 1)/signup localhost:8080/ Select signup link. 
-Add details for signup.
 1) User details are saved in embeded H2 database localhost:8080/h2-console User is directed to successful signup page. 
 2)/login localhost:8080/ Select login link. Add email and password. User is redirected to dummy page after successful login. 
 
