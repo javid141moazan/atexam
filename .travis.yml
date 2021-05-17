@@ -6,3 +6,6 @@ install: true
 
 script:
 - mvn -f com.example.myproject/pom.xml clean verify
+
+ - mvn -f spring-project/pom.xml verify -Pfailsafe
+  - mvn -f spring-project/pom.xml verify -Pe2e
