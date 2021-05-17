@@ -1,20 +1,11 @@
 
-#language: java
-#jdk: openjdk8
-
-#install: true
-
-#script:
-#- mvn -f com.example.myproject/pom.xml clean verify
-
-
-
-
-sudo: false
 language: java
 jdk: openjdk8
+
 install: true
-deploy:
-  provider: script
-  script: "mvn -B -V deploy"
-  skip_cleanup: true
+
+script:
+- mvn -f com.example.myproject/pom.xml clean verify
+
+
+
